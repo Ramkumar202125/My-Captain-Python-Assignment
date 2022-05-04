@@ -12,4 +12,4 @@ def char_frequency(str1):
     print(dict['M'])
     return "End OF PROGRAM"
 print(char_frequency('Mississippi'))
-print()
+
