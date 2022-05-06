@@ -6,10 +6,7 @@ def char_frequency(str1):
             dict[n] += 1
         else:
             dict[n] = 1
-    print(dict['i'])
-    print(dict['s'])
-    print(dict['p'])
-    print(dict['M'])
-    return "End OF PROGRAM"
+    print(sorted(dict.items(),reverse=True))
+    return "endof program"
 print(char_frequency('Mississippi'))
-
+print()
